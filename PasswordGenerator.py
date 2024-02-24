@@ -69,7 +69,9 @@ if upper == False and lower == False and numbers == False and symbols == False:
 print('----------------------------------------------------')
 print('Generating password...')
 print('----------------------------------------------------')
+
 time.sleep(1.5)
+
 print('====================================================')
 print("Your new password is: " + generatePassword(length, upper, lower, numbers, symbols))
 print('====================================================')
